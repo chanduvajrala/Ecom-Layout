@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #383838;
+}
+
+.unbxd-header {
+    width: 100%;
+    color: #383838;
+    font-size: 16px;
+}
+
+.search-bar {
+    text-align: center;
+    z-index: 3;
+}
+
+#unbxd-search {
+    width: 40%;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #edebef;
+}
+
+.name .price{
+    color: #383838;
+    font-size: 14px;
+    margin-top: 10px;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+
+select#sort-by{
+    font-size: 16px;
+    margin: 5px;
+    width: 95%;
+    border: none;
+    cursor: pointer;
+}
+
+ul.facet-list li {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+ul.facet-list {
+    list-style: none;    
+    padding: 0;
+}
+
+#filter {
+    width: 20%;
+    max-height: 90%;
+    min-height: 600px;
+    float: left;
+    border-right:1px solid #383838;
+    z-index: 5;
+}
+
+.facet-title {
+    color: #383838;
+    font-size: 14px;
+    margin:10px 0PX;
+    text-transform: uppercase
+}
+
+.facet-container {
+    margin: 15px 0px 15px 20px;
+    border-bottom: 1px solid grey;
+    position: relative;
+}
+
+.products {
+    float: left;
+    width: 76%;
+    overflow: auto;
+}
+
+.promotional-image {
+    height: 300px;
+}
+
+#search_button {
+    border: 1px solid #edebef;
+    border-radius: 4px;
+    box-sizing: content-box;
+    height: 22px;
+    position: absolute;
+    top:28px;
+    padding: 5px 0;
+    width: 40px;
+}
+
+.search_icon {
+    background: url(search.svg);
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+.sort-type {
+    position: relative;
+    float: right;
+    border: 1px solid #d5d6d9;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 34px;
+    width: 30%;
+}
+#product-count {
+    margin: 10px;
+    display: inline-block;
+}
+
+.filter-info {
+    overflow: auto;
+    margin:10px 0px 10px 0px;
+    border-bottom: 1px solid #edebef;
+    padding: 5px 5px 5px 5px;
+}
+
+.product-list {
+    text-align: center;
+}
+#products-layout {
+    display: block;
+    margin: 0 auto;
+    width:90%;
+}
+
+.facet-item {
+    border-bottom: 1px solid #edebef;
+    margin: 20px 5px 5px 5px;
+}
+
+.facet-body {
+    margin:20px 0px 20px 0px;
+}
+
+
+.product-column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+#product-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.productImage{
+    height: 200px;
+}
